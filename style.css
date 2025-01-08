@@ -1,0 +1,168 @@
+.calendar {
+  display: inline-flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* align-items: flex-start; */
+  position: relative;
+  background-color: var(--white-100);
+  width: 100%;
+}
+
+.calendar .element-barnavigation {
+  display: inline-flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.calendar .main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 80px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--white-100);
+}
+
+.calendar .logo {
+  position: relative;
+  width: 143px;
+  height: 32px;
+}
+
+.calendar .seperator {
+  position: relative;
+  /* width: 1440px; */
+  height: 1px;
+  object-fit: cover;
+}
+
+.calendar .screen-content {
+  display: flex;
+  flex-direction: column;
+  /* width: 1440px; */
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  padding: 32px 88px 88px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.calendar .ad-car-banner {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 8px;
+}
+
+.calendar .illustration {
+  position: relative;
+  width: 130px;
+  height: 130px;
+}
+
+.calendar .div {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.calendar .text-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.calendar .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "SF Pro Display-Semibold", Helvetica;
+  font-weight: 400;
+  color: var(--coolgray-700);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.calendar .thanks-for-your {
+  position: relative;
+  width: fit-content;
+  font-family: var(--text-lg-ld-6-normal-font-family);
+  font-weight: var(--text-lg-ld-6-normal-font-weight);
+  color: #6b7280;
+  font-size: var(--text-lg-ld-6-normal-font-size);
+  letter-spacing: var(--text-lg-ld-6-normal-letter-spacing);
+  line-height: var(--text-lg-ld-6-normal-line-height);
+  white-space: nowrap;
+  font-style: var(--text-lg-ld-6-normal-font-style);
+}
+
+.calendar .hero-sections-CTA-2 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 32px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #14bc84;
+  background-color: var(--emerald-500);
+  border: 1px solid 14bc84;
+  border-radius: 6px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.calendar .calendar-event {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.calendar .text-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: var(--white-100);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.calendar .p {
+  position: relative;
+  width: fit-content;
+  font-family: var(--title1-medium-font-family);
+  font-weight: var(--title1-medium-font-weight);
+  color: var(--coolgray-700);
+  font-size: var(--title1-medium-font-size);
+  letter-spacing: var(--title1-medium-letter-spacing);
+  line-height: var(--title1-medium-line-height);
+  white-space: nowrap;
+  font-style: var(--title1-medium-font-style);
+}
