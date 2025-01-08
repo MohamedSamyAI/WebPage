@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
   calendarlink.href = li;
   
   if (status && id) {
-      updateClickUpTask(status, id, "085ea571-d4cf-4b2b-9089-8b4c81c13c19");
+      updateClickUpTask(status, id, "");
   }
 
   document.getElementById('sendButton').addEventListener('click', () => {
       if (id) {
-          updateClickUpTask("Booked", id, "dfb5ea97-3a08-404a-873d-7bda3f31c6e6");
+          updateClickUpTask("Booked", id, "");
       } else {
           console.error('No id found in URL parameters');
       }
@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function updateClickUpTask(value, id, fieldId) {
-  const apiToken = "pk_68545445_Q7B0D6C389GWWG9WSXXK3KZIZ798CTU3";
-  const listId = "901506003115";
-  const searchFieldId = "594341c4-c66d-40eb-bb0c-4bfdda75c1ed"; // Field ID where we search for the given ID
+  const apiToken = "";
+  const listId = "";
+  const searchFieldId = ""; // Field ID where we search for the given ID
 
   try {
       const response = await fetch(`https://api.clickup.com/api/v2/list/${listId}/task`, {
