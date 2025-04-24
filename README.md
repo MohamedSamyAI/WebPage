@@ -43,7 +43,7 @@ Before running the project, ensure you have the following:
 
 ---
 
-## Setup Instructions
+## Setup Instructions:
 
 1. Clone the repository:
    ```bash
